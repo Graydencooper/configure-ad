@@ -21,15 +21,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-1. Setup a windows sever virtual machine and seet IP to static
-2. Install active directory on this virtual machine
-3. Promote sever to domain controller
-4. Restart sever
+1. Setup windows sever virtual machine and set private IP to static
+3. Install active directory on this virtual machine
+4. Promote the sever to domain controller
+5. Restart sever (do to promotion)
+6. Create Windows 10 virtual machine and set its DNS to the severs IP
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/425ba79e-f2b4-41d9-b121-07d0f565d374)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
